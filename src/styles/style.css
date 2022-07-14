@@ -67,11 +67,16 @@
     box-shadow: 0 5px 10px black;
   }
 
+  .footer {
+    padding:30px;
+    color:lightcoral;
+  }
+
   .mainContentDiv {
     background-color: rgb(16, 16, 16);
     height:100%;
     padding:0;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
     border-radius: 0 0 10px 10px;
     background-image: url(../images/react-icon-large.png);
     background-position: right;

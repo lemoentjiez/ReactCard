@@ -1,3 +1,5 @@
+import { Footer } from "./Footer"
+
 export function MainContent() {
     return (
         <div className="mainContentDiv">
@@ -12,6 +14,7 @@ export function MainContent() {
                     <li>Is maintained by Facebook</li>
                     <li>Powers thousands entreprise apps, including mobile apps</li>
                 </ul>
+              <Footer />
             </div>
         </div>
     )
