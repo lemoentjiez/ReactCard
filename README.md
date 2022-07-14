@@ -1,5 +1,8 @@
-# Scrimba first React project
+# First React project
+
+![alt text](https://github.com/lemoentjiez/ReactCard/blob/[branch]/image.jpg?raw=true)
+
  
-![image](https://user-images.githubusercontent.com/59575049/179119887-fb30cf41-cfdc-41b7-bba5-8f7d8af42a98.png)
+ 
 
 
