@@ -1,0 +1,100 @@
+@font-face {
+    font-family: InterFont;
+    src: url('../fonts/Inter-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: InterFontRegular;
+    src: url('../fonts/Inter-Regular.ttf');
+  }
+
+  * {
+    font-family: InterFont;
+  }
+
+  @media only screen and (min-width: 1190px) {
+    .wrapper {
+        width:40%;
+        margin:auto;
+        padding:20px;
+        min-width: 495px;
+      }
+  }
+
+  @media only screen and (max-width: 1190px) {
+    .wrapper {
+        width:90%;
+        margin:auto;
+        padding:20px;
+        min-width: 495px;
+      }
+  }
+
+  .nav > div > img {
+    width:45px;
+    height:40px;
+    margin:auto;
+    padding:5px;
+  }
+
+  .nav > div {
+    display:flex;
+    padding-left:20px;
+  }
+
+  .factsText{
+     color:aqua;
+     margin:auto;
+  }
+
+  .etcText {
+    color:lightgray;
+    padding-right:30px;
+  }
+
+  .header {
+    padding:0;
+    margin:0;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 51);
+    border-radius: 10px 10px 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 10px black;
+  }
+
+  .mainContentDiv {
+    background-color: rgb(16, 16, 16);
+    height:100%;
+    padding:0;
+    padding-bottom: 70px;
+    border-radius: 0 0 10px 10px;
+    background-image: url(../images/react-icon-large.png);
+    background-position: right;
+    background-repeat:no-repeat;
+    box-shadow: 0 5px 10px black;
+  }
+
+  .contentText {
+    margin:0;
+    padding:40px 20px 20px 20px;
+    color:lightgray;
+  }
+
+  .mainUl > li {
+    list-style: none;
+    color: lightgray;
+    font-family: InterFontRegular;
+    padding-bottom: 15px;
+  }
+  .mainUl > li::before {
+    content: "\2022";
+    color:#61DAFB;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
